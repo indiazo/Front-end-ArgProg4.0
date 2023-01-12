@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+    width: 1000px;
+    font-size: 5cm;
+    font-weight: bold;
+}
+
+* {
+    size: 10px;
+    color: aqua;
+}
+
+p {
+    color: blue;
+}
+
+/** el * funciona de comodin como marcador para elegir a todos los elementos */
+/** el CSS es una hoja de estilos en cascada, lo que significa que se lee de abajo hacia arriba. 
+Por mas que haya definido el color aqua para *, el p sera color blue. */
+/** es mejor trabajar por id o por clase que por elemento del HTML.*/
