@@ -1,18 +1,12 @@
-h1 {
-    color: blue;
-    width: 1000px;
-    font-size: 5cm;
-    font-weight: bold;
+@font-face {
+    font-family: Ubuntu-condensed;
+    src: url(UbuntuCondensed-Regular.ttf);
 }
 
-* {
-    size: 10px;
-    color: black;
+h2 {
+    font-family: Ubuntu-medium;
 }
 
-p {
-    color: blue;
-}
 
 /** el * funciona de comodin como marcador para elegir a todos los elementos */
 /** el CSS es una hoja de estilos en cascada, lo que significa que se lee de abajo hacia arriba. 
