@@ -3,37 +3,40 @@
     src: url(UbuntuCondensed-Regular.ttf);
 }
 
-h2 {
-    font-family: Ubuntu-medium;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Estilos robados de https: //www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float LAYOUT RESPONSIVO
-
-header {
-    background-color: #666;
-    padding: 10px;
-    text-align: center;
-    font-size: 25px;
-    color: white;
-}
-
+/*Estilos robados de https: //www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float LAYOUT RESPONSIVO*/
 
 /* Style the header */
 header {
-    background-color: #666;
+    background-color: #ffffff;
     padding: 30px;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
-    color: white;
+    color: #2e8ede;
+}
+
+/*Style the profile image*/
+.imagen_perfil {
+    float: left;
+    width: 30%;
+    max-height: 200px;
+    width: auto;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
     float: left;
-    width: 30%;
+    width: 15%;
     height: 300px;
     /* only for demonstration, should be removed */
-    background: #ccc;
+    background: #2e8ede;
     padding: 20px;
 }
 
@@ -46,7 +49,7 @@ nav ul {
 article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 85%;
     background-color: #f1f1f1;
     height: 300px;
     /* only for demonstration, should be removed */
