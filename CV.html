@@ -3,32 +3,73 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Proyecto Final J.N. Farina</title>
-    <script src="https://kit.fontawesome.com/652a8fdb17.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon"
         href="C:\Users\farin\OneDrive\Capacitacion\Cursos\Front end ArgProg4.0\TP1 HTML\IMAGENES\favicon1.png">
     <link rel="stylesheet" type="text/css" href="CSS/style.css" />
 </head>
 
 <body>
-    <header>
-        <img class="imagen_perfil"
-            src="C:\Users\farin\OneDrive\Capacitacion\Cursos\Front end ArgProg4.0\TP1 HTML\IMAGENES\Imagen perfil.png"
-            alt="Imagen de perfil" style="max-width:100%;height:auto;">
-        <h1>Juan Natanael Farina</h1>
-        <p>resumen CV</p>
+    <section class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="row">
+                    <img class="imagen_perfil"
+                        src="C:\Users\farin\OneDrive\Capacitacion\Cursos\Front end ArgProg4.0\TP1 HTML\IMAGENES\Imagen perfil.png"
+                        alt="Imagen de perfil" style="max-width:100%;height:auto;">
+                </div>
+                <div class="row">
+                    <h1>Juan Natanael Farina</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://dummyimage.com/600x300/000000/fff" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dummyimage.com/600x300/fa00fa/0011ff" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dummyimage.com/600x300/ff9d00/0011ff" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </header>
 
     <nav>
         <ul>
-            <li><img src="" alt="Icono mail"></li>
-            <li><img src="" alt="Celular"></li>
-            <li><img src="" alt="Icono ubicacion"></li>
-            <li><img src="" alt="Icono calendario"></li>
-            <li><img src="" alt="Icono ID"></li>
+            <li><img src="" alt="Icono mail"></li> <!--Agregar un link para copiar el enlace al mail-->
+            <li><img src="" alt="Celular"></li> <!--Agregar link de Whatsapp-->
+            <li><img src="" alt="Icono ubicacion"></li> <!--Agregar link google maps-->
+            <li><img src="" alt="Icono calendario"></li> <!--Fecha de nacimiento-->
+            <li><img src="" alt="Icono ID"></li> <!--DNI-->
         </ul>
         <!--Agregar un boton para descargar la info personal y la info de contacto, eso re sumaria-->
     </nav>
@@ -61,12 +102,14 @@
             <p>Tokyo</p>
         </li>
     </ul>
-    <p></p>
 
     <footer>
         <a href="https://www.linkedin.com/in/juan-natanael-farina/">linkedin profile</a>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
